@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    font-family: Tahoma;
+}
+
+body{
+    max-width: 870px;
+    margin: auto;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    gap: 10px;
+    margin: 20px;
+}
+.fname,.lname,.constituency{
+    text-align: left;
+}
+.email,.Hash,.yos,#total_{
+    text-align: center;
+}
+.tr6{
+    border-bottom: 2px solid black;
+}
+.total{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

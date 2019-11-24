@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Mp Creation Form</title>
+        <link rel = "stylesheet" href = "styles/p2.css">
+        <script src = "scripts/p2.js"></script>
+    </head>
+    <body>
+        <div class = "form-body">
+        <form>
+            <fieldset>
+            <legend>MP Creation Form</legend>
+            <div class = "fname">   
+                <input id = "f_name" type = "fname" placeholder="First Name" required>
+            </div>
+            <div class = "lname">
+                <input type = "lname" id = "l_name" placeholder="Last Name" required>
+            </div>
+            <div class = "constituency">
+                    <input type = "constituency" id = "constituency_" placeholder="Constituency" required>
+                </div>
+            <div class = "email">
+                    <input type = "email" id = "email_" placeholder="E-mail" required>
+            </div>
+            <div class = "yos">
+                    <input type = "yos" id ="yos_" placeholder="Years of Service" required>
+            </div>
+            <div class = "password">
+                    <input type = "password" id = "password_" placeholder="Enter Password" required>
+            </div>
+            <div class = "confirm_p">
+                    <input type = "password" id = "confirm_pass" placeholder="Confirm Password" required>
+            </div>
+            <input type = 'hidden' value = '6eb6ac241942dc7226aeb'>
+            <div class = "submit_button">
+                <button id = "submit_" onclick = validate();><span>Submit</span></button>
+            </div>
+        </fieldset>
+        </form>
+        </div>
+    </body>
+</html>
